@@ -1,5 +1,6 @@
 import math
 import os
+import time
 
 def welcome():
     input('''Hi I'm here to help you figure out how to plan for your thanksgiving dinner
@@ -84,3 +85,5 @@ if __name__ == "__main__":
                 input('''please enter yes or no
 press enter to continue''')
     print("Thank you for letting me help, I hope you have a great thanksgiving!")
+    time.sleep(4)
+    os.system("clear")
